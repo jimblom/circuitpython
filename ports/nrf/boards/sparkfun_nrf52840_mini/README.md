@@ -33,7 +33,7 @@ This can be somewhat confusing, especially around the analog pins. Here's a quic
 <tr><td>4</td><td></td><td>A2</td><td>P0_04</td></tr>
 </table>
 
-Standard port/pin references should work -- e.g. `P0_17` is pin 17, `P0_02` is pin 2, etc.
+If a pin isn't defined as D0, D1, etc., standard port/pin references should work -- e.g. `P0_17` is pin 17, `P0_02` is pin 2, etc.
 
 ## Bootloader Notes
 
@@ -43,5 +43,6 @@ The nRF52840 Mini ships with a slightly modified (i.e pin defs and USB defs) ver
 
 The nRF52840 Mini hardware layout is open source:
 
-* [Schematic]()
-* [Eagle Files]()
+* [Schematic](https://cdn.sparkfun.com/assets/learn_tutorials/8/2/0/nrf52840-breakout-mdbt50q-v10.pdf)
+* [Eagle Files](https://cdn.sparkfun.com/assets/learn_tutorials/8/2/0/nrf52840-breakout-mdbt50q-v10.zip)
+* [Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-pro-nrf52840-mini-hookup-guide)
